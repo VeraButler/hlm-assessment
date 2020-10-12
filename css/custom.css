@@ -1,0 +1,468 @@
+.blue {
+    color: #0361B8;
+}
+
+/* Small only */
+@media screen and (max-width: 640px) {
+    .contact-number {
+        font-size: 30px !important;
+        line-height: 50px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+
+    h3 {
+        padding: 15px !important;
+        font-size: 18px !important;
+    }
+
+    h4 {
+        font-size: 16px !important;
+    }
+
+    /* top bar */
+    #header > div.large-4.cell.top-bar-left > img {
+        padding: 0 20px 0 20px !important;
+    }
+    #tagline {
+        line-height: 30px !important;
+        padding: 10px 20px 0 20px !important;
+    }
+    /* banner hero section */
+    #banner-hero-section {
+        padding: 40px 0 !important;
+    }
+
+    #banner-hero-underline {
+        width: 175px !important;
+        margin-left: -160px !important;
+        margin-top: -35px !important;
+    }
+
+    #banner-hero-section p {
+        font-size: 20px !important;
+    }
+
+    #banner-hero-section hr {
+        width: 175px !important;
+    }
+
+    #trex-pro-logo {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    /* testimonial section */
+    #testimonial-section  {
+        position: relative !important;
+        margin: 0 !important;
+        padding: 40px !important;
+        height: auto !important;
+    }
+
+    #testimonial-section p {
+        font-size: 14px !important;
+    }
+
+    #testimonial-section .star {
+        width: 18px !important;
+        height: auto !important;
+    }
+    #testimonial-section .google-logo {
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    /* lead form section */
+    #lead-form-section {
+        margin: 0 !important;
+        position: relative !important;
+        text-align: center !important;
+        height: auto !important;
+        padding: 40px !important;
+    }
+
+    #lead-form-background-image {
+        /*width: 100%;*/
+        height: 1225px !important;
+        /*background-position: top !important;*/
+        background-repeat: repeat !important;
+        background-size: contain;
+        /*margin-top: -340px !important;*/
+        /*margin-left: -5px !important;*/
+        overflow: hidden !important;
+    }
+
+    #left-col-form-section > h3 {
+        text-align: center !important;
+        font-size: 24px !important;
+    }
+
+    #left-col-form-section > p {
+        text-align: left !important;
+        font-size: 16px !important;
+    }
+
+    /* check lists */
+    #left-col-form-section > div > div:nth-child(1) > ul {
+        text-align: left !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        padding-top: 20px !important;
+    }
+
+    #left-col-form-section > div > div:nth-child(2) > ul {
+        text-align: left !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        padding-bottom: 40px !important;
+    }
+
+    #dream-deck {
+        font-size: 26px !important;
+    }
+
+    #form-container {
+        margin: 0 !important;
+        padding: 15px 40px 0 40px !important;
+    }
+
+    /* submit button */
+    #form-container > div > form > div > div > div:nth-child(7) > div {
+        margin-left: 75px !important;
+    }
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* Large only */
+    #header {
+        padding: 40px 0;
+    }
+
+    #tagline {
+        margin: 10px 0;
+        font-family: Lato, serif;
+        color: #9F7857;
+        font-size: 18px;
+        font-style: italic;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    #contact-line {
+        margin: 10px 0;
+        font-family: Montserrat, serif;
+        color: #0361B8;
+        font-size: 20px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    #hammer-header {
+        margin-top: -10px;
+    }
+
+    #banner-hero-section {
+        color: #ffffff;
+        background-image: url("../images/deck_1@2x.png");
+        background-color: #cccccc;
+        width: 100%;
+        height: 582px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #banner-hero-section h2 {
+        font-family: Montserrat, serif;
+        font-size: 48px;
+        line-height: 72px;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+    }
+
+    #banner-hero-section p {
+        color: #fffce9;
+        font-family: Lato, serif;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+    }
+
+    #banner-hero-underline {
+        width: 351.9px;
+        margin-left: -311.9px;
+        margin-top: -40px;
+    }
+
+    #banner-hero-middle {
+        padding: 0 100px;
+    }
+
+    #banner-hero-section hr {
+        border-top: #E8D5BC solid 1px;
+        border-bottom: none;
+        width: 972px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #banner-hero-section #portfolio-btn {
+        width: 239.62px !important;
+        height: 55.7px !important;
+        background-color: rgba(0, 0, 0, .5) !important;
+        border: solid #ffffff 1px !important;
+    }
+
+    #banner-hero-section #portfolio-btn img{
+        padding-left: 5px;
+        width: 20.5px;
+        height: auto;
+        overflow: hidden;
+    }
+
+#trex-pro-logo {
+        filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+        margin-right: 100px;
+        overflow: hidden;
+    }
+
+    .contact-number {
+        font-family: Montserrat, serif;
+        color: #231F20;
+        font-size: 40px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 900;
+        line-height: 24px;
+        align-self: flex-start;
+    }
+
+    #testimonial-section {
+        background-image: url("../images/wood_plank@2x.png");
+        -moz-background-image: url("../images/wood_plank@2x.png");
+        -o-background-image: url("../images/wood_plank@2x.png");
+        -webkit-background-image: url("../images/wood_plank@2x.png");
+        background-color: #ffffff;
+        width: 100%;
+        height: 688.114px;
+        padding: 40px 200px;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #testimonial-section h2 {
+        color: #000000;
+        font-family: Lato, serif;
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    #testimonial-section hr {
+        border-top: #9F7857 solid 1px;
+        width: 1260px;
+    }
+
+    #testimonial-section h3 {
+        color: #5F3310;
+        font-family: Lato, serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 20px;
+    }
+
+    #testimonial-section p {
+        color: #5F3310;
+        font-family: Lato, serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    #testimonial-section .google-logo {
+        padding: 15px;
+    }
+
+    #lead-form-section {
+        color: #ffffff;
+        background-color: #5F3310;
+        position: relative;
+        font-weight: bold;
+        z-index: 2;
+        width: 100%;
+        height: 788px;
+        text-align: left;
+    }
+
+    #lead-form-background-image {
+        position: absolute;
+        background-image: url("../images/deck_2@2x.png");
+        -moz-background-image: url("../images/deck_2@2x.png");
+        -o-background-image: url("../images/deck_2@2x.png");
+        -webkit-background-image: url("../images/deck_2@2x.png");
+        width: 100%;
+        height: 788px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        z-index: -1;
+    }
+
+    #lead-form-section #form-container {
+        padding-top: 70.5px;
+        width: 600px;
+        height: 627px;
+        background-image: linear-gradient(180deg,
+        rgba(145, 202, 255, .45), rgba(145, 202, 255, 100)), url("../images/clouds@2x.png");
+    }
+
+    #lead-form-section h3 {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    #lead-form-section p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #lead-form-section #dream-deck {
+        font-size: 28px;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+
+    #lead-form-section #left-col-form-section {
+        padding-right: 50px;
+    }
+
+    #lead-form-section .list-with-checks {
+        line-height: 4px;
+    }
+
+
+    #lead-form-section .list-with-checks li {
+        list-style-type: none;
+        font-family: Lato, serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    #lead-form-section ul li:before {
+        content: '';
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/custom-list-check@2x.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #lead-form-section #form-container h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        filter: drop-shadow(0px 2px 6px rgba(0, 78, 150, 1));
+    }
+
+    #lead-form-section #form-container > p {
+        color: #0361B8;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        font-family: Lato, serif;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: Lato, serif;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        font-family: Lato, serif;
+    }
+
+    #lead-form-section #form-container input {
+        height: 34px;
+    }
+
+    #lead-form-section #form-container textarea {
+        height: 90.96px;
+    }
+
+    /* submit button */
+    #form-container > div > form > div > div > div:nth-child(7) > div > input {
+        font-family: Lato, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        width: 95% !important;
+    }
+
+    #footer-callout-section {
+        width: 100%;
+        height: 259px;
+        left: 0px;
+        bottom: -123px;
+        overflow: hidden;
+        background-color: #0361B8;
+        color: #ffffff !important;
+        /*z-index: 4;*/
+    }
+
+    #footer-callout-section a {
+        color: #ffffff !important;
+    }
+
+    #footer-callout-section a:hover {
+        color: #ffffff !important;
+    }
+
+    #footer {
+        font-family: Lato, serif;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 2.3px;
+        color: #9F7857;
+        background-color: #22170F;
+        width: 100%;
+        height: 123px;
+        left: 0px;
+        bottom: 0;
+        overflow: hidden;
+    }
+
+    #footer a {
+        font-family: Lato, serif;
+        font-size: 12px;
+        font-weight: 100;
+        color: #9F7857;
+    }
+
